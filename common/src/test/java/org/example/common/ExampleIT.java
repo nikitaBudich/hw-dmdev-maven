@@ -2,11 +2,11 @@ package org.example.common;
 
 import org.junit.jupiter.api.Test;
 
-
 public class ExampleIT {
+    private static final PrintUtil printUtil = new PrintUtil();
+
     @Test
     public void test() {
-        PrintUtil printUtil = new PrintUtil();
         printUtil.print();
     }
 }
